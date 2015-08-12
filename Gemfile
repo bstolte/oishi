@@ -32,8 +32,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Adding Bootstrap SASS
+# Use Bootstrap SASS
 gem 'bootstrap-sass', '~> 3.3.4'
+
+# Use Kaminari for pagination - https://github.com/amatsuda/kaminari 
+gem 'kaminari'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

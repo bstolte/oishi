@@ -5,3 +5,9 @@
 		<p><%= place.description %></p>
 	</div>
 <% end %>
+
+<div class="container">
+	<div class="col-xs-4 col-xs-offset-4">
+		<%= paginate @places %>
+	</div>
+</div>
