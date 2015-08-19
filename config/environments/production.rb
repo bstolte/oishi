@@ -1,4 +1,8 @@
 Oishi::Application.configure do
+
+  # Set up for Devise auth
+  config.action_mailer.default_url_options = { :host => 'oishi-yo.herokuapp.com' }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
