@@ -7,6 +7,10 @@ class Place < ActiveRecord::Base
 	# Sets up an association with Users
 	belongs_to :user
 
+	# Geocoder
+	geocoded_by :address
+	after_validation :geocode
+
 	# Validations for places
 	validates :name, :presence => true, :length => { :minimum => 3 }
 	validates :address, :description, :presence => true

@@ -47,6 +47,12 @@ gem 'sprockets', '2.11.0'
 # Use Devise for user authentication
 gem 'devise', '>= 3.2.4'
 
+# Use geocoder for Google Maps integration
+gem 'geocoder'
+
+# Figaro app configuration using ENV and a single YAML file
+gem 'figaro', '>= 1.0.0' 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
