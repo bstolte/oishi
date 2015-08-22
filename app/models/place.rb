@@ -7,4 +7,6 @@ class Place < ActiveRecord::Base
 	# Sets up an association with Users
 	belongs_to :user
 
+	validates :name, :presence => true
+
 end
