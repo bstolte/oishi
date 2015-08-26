@@ -7,6 +7,9 @@ class Place < ActiveRecord::Base
 	# Sets up an association with Users
 	belongs_to :user
 
+	# Association with comments
+	has_many :comments
+
 	# Geocoder
 	geocoded_by :address
 	after_validation :geocode

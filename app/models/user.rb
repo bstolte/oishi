@@ -6,4 +6,7 @@ class User < ActiveRecord::Base
 
   # Sets up an association with Places
   has_many :places
+
+  # Associate with comments
+  has_many :comments
 end
