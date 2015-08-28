@@ -8,7 +8,7 @@
 	<div id="map"></div>
 	<script>
 		function initMap() {
-	  		var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %>};
+	  		var myLatLng = {lat: <%= @place.latitude.to_json %>, lng: <%= @place.longitude.to_json %>};
 	  		var map = new google.maps.Map(document.getElementById('map'), {
 	    		zoom: 15,
 	    		center: myLatLng
@@ -17,7 +17,7 @@
 	  		var marker = new google.maps.Marker({
 	    		position: myLatLng,
 	    		map: map,
-	    		title: 'Hello World!'
+	    		title: <%= @place.name.to_json.html_safe %>
 	  		});
 		}
 	</script>
@@ -30,7 +30,7 @@
 	<div class="clear"></div>
 	<%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
 		<%= f.input :message %>
-		<%= f.input :rating %>
+		<%= f.input :rating, :as => :select, :collection => Comment::RATINGS %>
 		<br />
 		<%= f.submit "Add a Comment", :class => 'btn btn-primary' %>
 	<% end %> 
@@ -48,7 +48,9 @@
 <% @place.comments.each do |comment| %>
 	<div>
 		<blockquote>
-			<b><%= comment.rating %></b> - 
+			<% if comment.humanized_rating.present? %>
+				<b><%= comment.humanized_rating %></b> - 
+			<% end %>
 			<%= comment.message %>
 			<small><%= comment.user.email %></small>
 		</blockquote>
