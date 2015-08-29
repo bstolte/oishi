@@ -10,6 +10,9 @@ class Place < ActiveRecord::Base
 	# Association with comments
 	has_many :comments
 
+	# Association with photos
+	has_many :photos
+
 	# Geocoder
 	geocoded_by :address
 	after_validation :geocode
