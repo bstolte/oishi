@@ -115,8 +115,8 @@
 
 		<% @place.photos.each do |photo| %>
 			<div>
-					<%= image_tag photo.picture %>
-					<%= photo.caption %>
+				<%= image_tag photo.picture %>
+				<p><%= photo.caption %></p>
 			</div>
 		<% end %>
 		<hr>
