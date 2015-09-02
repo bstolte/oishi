@@ -59,6 +59,9 @@ gem 'carrierwave'
 # Use Fog gem cloud services library
 gem "fog", "~> 1.3.1"
 
+# Use rmagick for image resizing
+gem 'rmagick'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

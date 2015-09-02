@@ -116,6 +116,7 @@ GEM
       json (~> 1.4)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
+    rmagick (2.15.4)
     ruby-hmac (0.4.0)
     sass (3.4.16)
     sass-rails (5.0.3)
@@ -168,6 +169,7 @@ DEPENDENCIES
   kaminari
   pg
   rails (= 4.0.1)
+  rmagick
   sass-rails
   sdoc
   simple_form
