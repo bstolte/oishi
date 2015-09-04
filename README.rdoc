@@ -1,5 +1,3 @@
 == Oishi
 
 Firehose Project Nomster App
-
-<tt>rake doc:app</tt>.
