@@ -6,6 +6,11 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <%= favicon_link_tag "/favicon.ico" %>
+  <script type="text/javascript">
+      jQuery(function() {
+          $("a.fancybox").fancybox();
+      });
+    </script>
 </head>
 <body>
 

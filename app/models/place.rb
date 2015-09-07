@@ -8,7 +8,7 @@ class Place < ActiveRecord::Base
 	belongs_to :user
 
 	# Association with comments
-	has_many :comments
+	has_many :comments, dependent: :destroy
 
 	# Association with photos
 	has_many :photos

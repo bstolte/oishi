@@ -113,12 +113,21 @@
 		  </div>
 		</div>
 
+
+
 		<% @place.photos.each do |photo| %>
-			<div>
-				<%= image_tag photo.picture.large %>
+			<div class="col-xs-12">
+				<%= link_to image_tag(photo.picture.thumb), "#hello", :class => "fancybox" %>
 				<p><%= photo.caption %></p>
+					<div style="display:none;">
+  						<div id="hello">
+  							<%= image_tag photo.picture.large %>
+  						</div>
+					</div>
 			</div>
 		<% end %>
+		
+
 		<hr>
 
 	</div>

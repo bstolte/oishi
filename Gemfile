@@ -62,6 +62,9 @@ gem "fog", "~> 1.3.1"
 # Use rmagick for image resizing
 gem 'rmagick'
 
+# Use fancybox to image overlays
+gem 'fancybox-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
