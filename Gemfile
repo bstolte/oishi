@@ -65,6 +65,9 @@ gem 'rmagick'
 # Use fancybox to image overlays
 gem 'fancybox-rails'
 
+# Use FactoryGirl
+gem "factory_girl_rails", "~> 4.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
