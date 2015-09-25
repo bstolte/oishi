@@ -1,0 +1,257 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/vagrant/src/oishi/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/app/helpers/comments_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/app/helpers/photos_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/app/helpers/places_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/test/helpers/photos_helper_test.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/test/helpers/places_helper_test.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/test/helpers/users_helper_test.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/test/models/comment_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/models/photo_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/models/place_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/models/user_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/controllers/comments_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/controllers/photos_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/controllers/places_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/controllers/users_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/test/mailers/notification_mailer_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/app/models/comment.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/app/models/place.rb": [
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/app/mailers/notification_mailer.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/app/controllers/comments_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/vagrant/src/oishi/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/src/oishi/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1443188227
+  }
+}

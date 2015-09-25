@@ -68,6 +68,9 @@ gem 'fancybox-rails'
 # Use FactoryGirl
 gem "factory_girl_rails", "~> 4.0"
 
+# Use SimpleCov to see what's not tested (https://github.com/colszowka/simplecov)
+gem 'simplecov', :require => false, :group => :test
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
